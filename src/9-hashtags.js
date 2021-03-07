@@ -1,3 +1,5 @@
 export const hashtags = (text) => {
-  return text
+  const regexp = /[#]
+  const filteredText = str.match(regexp)
+  return filteredText
 }
